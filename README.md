@@ -48,7 +48,27 @@ If you don't want to install the tool globally, you can run it directly from the
    ```
 
 ## Configuration
-- Ensure your browser or system SOCKS5 proxy is set to `127.0.0.1:9050`.
+### Browser Configuration
+
+#### Firefox
+1. Go to **Settings** > **General** > **Network Settings** > **Settings...**
+2. Select **Manual proxy configuration**.
+3. In **SOCKS Host**, enter `127.0.0.1` and Port `9050`.
+4. Select **SOCKS v5**.
+5. Check **Proxy DNS when using SOCKS v5**.
+6. Click **OK**.
+
+#### Chrome / Chromium
+Chrome uses the system proxy settings by default. To use a specific proxy:
+1. Launch Chrome from the terminal with the proxy flag:
+   ```bash
+   google-chrome --proxy-server="socks5://127.0.0.1:9050"
+   ```
+   *Or for Chromium:*
+   ```bash
+   chromium --proxy-server="socks5://127.0.0.1:9050"
+   ```
+2. Alternatively, use extensions like **FoxyProxy** or **SwitchyOmega** to manage proxy settings easily within the browser.
 - The tool will automatically request rotation timing and iteration preferences upon launch.
 
 ## Disclaimer
