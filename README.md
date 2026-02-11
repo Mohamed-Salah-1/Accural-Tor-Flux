@@ -1,32 +1,60 @@
-# Auto_Tor_IP_changer V 2.1
-change your Ip Address automatically  This tool based on tor project
+# Accural-Tor-Flux
+**Elite IP Rotator | Optimized for Accural | Powered by Artiphoria**
 
+Accural-Tor-Flux is a high-performance, automated IP rotation tool built on the Tor network. It is designed for maximum privacy and seamless integration with the Accural ecosystem.
 
-how to install this tools :
+## Features
+- **Distro-Aware**: Automatically detects your Linux distribution (Debian, Arch, Fedora, etc.) and manages Tor installation/services.
+- **Root Security**: Enforces secure execution and handles service permissions.
+- **Smart Rotation**: Configurable intervals and customizable iteration counts.
+- **Branded UI**: Premium terminal experience designed by | Artiphoria | Accural.
 
-* : requirements:
+## Installation
 
-  sudo apt-get install tor
-  pip3 install requests[socks]
-  or just run autoTor it will install everything
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Mohamed-Salah-1/Accural-Tor-Flux.git
+   cd Accural-Tor-Flux
+   ```
 
-1: git clone https://github.com/FDX100/Auto_Tor_IP_changer.git
+2. **Make the installer executable**:
+   ```bash
+   chmod +x install.py
+   ```
 
-2 : cd Auto_Tor_IP_changer
+3. **Run the installer**:
+   ```bash
+   ./install.py
+   ```
+   *Note: You can also use `python3 install.py` if you prefer.*
 
-3 : python3 install.py
+4. **Usage**:
+   Once installed, type `acc` or `aut` in any terminal to launch the tool.
+   ```bash
+   sudo acc
+   ```
 
-4 : interminal type ( aut ) any where you want
-  
-5 : type time to change IP
+## Alternative: Run Without Installation
+If you don't want to install the tool globally, you can run it directly from the directory:
 
-6: type how many time to change your ip 
+1. **Make the script executable**:
+   ```bash
+   chmod +x auto_flux.py
+   ```
 
-*[0 to infinte IP change]
+2. **Run it with sudo**:
+   ```bash
+   sudo ./auto_flux.py
+   ```
 
-6 : go to your browser / pc  change sock proxy to 127.0.0.1:9050
+## Configuration
+- Ensure your browser or system SOCKS5 proxy is set to `127.0.0.1:9050`.
+- The tool will automatically request rotation timing and iteration preferences upon launch.
 
-7 : BOOOOOOMM 
+## Disclaimer
+This tool is intended for privacy and educational purposes. Ensure you comply with all local laws and the Tor Project's terms of service.
 
-============
-http://facebook.com/ninja.hackerz.kurdish/
+---
+**Marketing & Support**:
+- Youtube: [Artiphoria](https://www.youtube.com/@Artiphoria)
+- System: **Accural ERP**
